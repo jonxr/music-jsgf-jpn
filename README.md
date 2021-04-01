@@ -52,7 +52,7 @@ English: I want to listen to Gen Hoshino's Koi!
 ```
 
 ### LIMITATIONS / SCALABILITY
-The scalability limitations that could be improved upon specifically for the Japanese Language	includes consideration for intermediate particles (subject: ga | が, possession/description: no | の) and different suffixes for different modes of speech (i.e. casual: タメ語, polite / honorific: 丁寧語　敬語, 尊敬語, 謙譲語)
+The scalability limitations that could be improved upon specifically for the Japanese Language	includes consideration for intermediate particles (subject: ga | が; direct object: を; possession/description: no | の) and different suffixes for different modes of speech (i.e. casual: タメ語, polite / honorific: 丁寧語　敬語, 尊敬語, 謙譲語)
 
 We will mostly assume casual in the use case context of the simplest voice commands 
 for Google Assistant, Microsoft Cortana, Apple Siri, etc. in auto starting a music player like Spotify.
@@ -96,5 +96,5 @@ hey jude |
 (恋 | Koi);
 ```
 
-### Transliteration
+### TRANSLITERATION
 For Japanese, English songs are mostly taken as is, but could be converted to Katakana as transliteration of foreign words (i.e cake -> ケーキ kekki). Other Japanese music examples were also added.
